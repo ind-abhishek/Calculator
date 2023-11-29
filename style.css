@@ -1,19 +1,31 @@
+body{
+  background: #eafaff;
+}
 #calculator{
-  border: 1px solid darkgray;
+  border: 3px solid black;
   border-radius: 5px;
   width: 200px;
+  background-color: #4371c6;
+  position: absolute;
+  top: 10%;
+  left: 25%;
 }
 
 #display{
   margin: 10px;
   width: 90%;
   font-size: 25px;
+  background: #000000;
+  color: azure;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .btn{
-  width: 45px;
+  min-width: 45px;
   height: 40px;
   margin: 3px;
+  background-color: #9dc3e7;
+  color: #eafaff;
 }
 
 .button-containor{
